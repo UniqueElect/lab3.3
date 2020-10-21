@@ -3,7 +3,7 @@
 using namespace std;
 int main()
 {
-	const double PI = acos(-1.0);
+	const double PI = atan(1) * 4;
 	double x; // вхідний аргумент
     double R; // вхідний параметр
 	double y; // результат обчислення виразу
@@ -27,9 +27,9 @@ int main()
 						y = sin(x);
 					else
 						if (PI < x)
-							y = (R * x - R * PI) / (R - PI);
+							y = (x - PI);
 	cout << endl;
 	cout << "y = " << y << endl;
 	cin.get();
 	return 0;
-}
+}
