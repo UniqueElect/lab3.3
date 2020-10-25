@@ -23,7 +23,7 @@ int main()
 				if (-4 < x && x <= 0)
 					y = R + ((-R * x - 4 * R) / 4);
 				else
-					if (0 < x <= PI)
+					if (0 < x && x<= PI)
 						y = sin(x);
 					else
 						if (PI < x)
